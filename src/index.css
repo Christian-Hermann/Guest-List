@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #eee;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+main {
+  padding: 1rem;
+  border: 2px solid;
+  border-radius: 0.5rem;
+  background: white;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+}
+
+article,
+main {
+  display: grid;
+  gap: 1ch;
+}
+
+h1 {
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+tbody tr:nth-child(odd) {
+  background: #f3f3f3;
+}
+
+tbody tr:hover {
+  cursor: pointer;
+  background: rgba(255, 255, 0, 0.5);
+}
+
+td {
+  padding: 1ch;
+}
